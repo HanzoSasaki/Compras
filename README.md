@@ -1,7 +1,8 @@
 
 # 🛒 Lista de Supermercado 
 
-> **Facilitando as compras da sua mãe e as suas também!**
+> **Facilitando as compras  suas também!**
+**LINK ->** https://hanzosasaki.github.io/Compras/
 
 Este é um aplicativo simples e intuitivo desenvolvido para ajudar minha mãe a planejar suas compras de supermercado. Ela pode adicionar os itens da lista, preencher os preços manualmente e ver o total gasto automaticamente. Futuramente, o aplicativo poderá integrar uma API para buscar preços da região. 🚀
 
@@ -99,6 +100,6 @@ Sinta-se à vontade para contribuir com melhorias! Basta seguir os passos:
 
 ## 🧑‍💻 **Autor**
 
-Desenvolvido com ❤️ por [Seu Nome]. Este projeto foi criado com o objetivo de facilitar as idas ao supermercado da minha mãe e, quem sabe, ajudar outras pessoas também!  
+Desenvolvido com ❤️ por Erick Barbosa. Este projeto foi criado com o objetivo de facilitar as idas ao supermercado da minha mãe e, quem sabe, ajudar outras pessoas também!  
 
 ---
