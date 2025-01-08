@@ -1,6 +1,3 @@
-Aqui está um arquivo `README.md` formatado, completo e amigável, com explicações detalhadas do projeto e seu propósito, incluindo emoticons:
-
----
 
 # 🛒 Lista de Supermercado 
 
