@@ -2,6 +2,9 @@ const productForm = document.getElementById('product-form');
 const productInput = document.getElementById('product-input');
 const productList = document.getElementById('product-list');
 const totalAmount = document.getElementById('total-amount');
+const shareBtn = document.getElementById('share-btn')
+const shareText = document.getElementById('share-text')
+
 
 let total = 0;
 
@@ -48,3 +51,26 @@ function calculateTotal() {
 
   totalAmount.textContent = total.toFixed(2);
 }
+
+shareBtn.addEventListener('click', ()=> {
+
+    let shareContent = 'Lista de Compras: \n';
+    const items = productList.querySelectorAll('li');
+    items.forEach((item) =>{
+
+        const productName = item.querySelector('span').textContent;
+        const productPrice = item.querySelector('input').value || 'sem preço';
+        shareContent += `- ${productName}: R$${productPrice} \n`
+        
+    })
+
+    shareContent += `\n Total: R$${total.toFixed(2)}`;
+
+    shareText.value = shareContent;
+    shareText.style.display = 'block';
+    shareText.select();
+    document.execCommand('copy');
+
+
+    alert(' Lista copiada! você pode compartilhar essa lista para qualquer msg de texto ')
+} )

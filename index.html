@@ -4,20 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de Supermercado</title>
+  <!-- vincula o arquivo de estilos css -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- container principal que agrupa todos os elementos -->
   <div class="container">
+    <!-- titulo -->
     <h1>Lista de Supermercado</h1>
+    <!-- formulario para adicionar itens à lista -->
     <form id="product-form">
-      <input type="text" id="product-input" placeholder="Digite o produto..." required>
-      <button type="submit">Adicionar</button>
+    <!-- campo de entrada para digitar nome do produto -->
+        <input type="text" id="product-input" placeholder="Digite o produto..." required>
+      <!-- botão para adicionar o produto à lista -->
+        <button type="submit">Adicionar</button>
+        <button id="share-btn">Compartilhar Lista</button>
+        <textarea id="share-text" readonly style="display: none;"></textarea>
     </form>
+<!-- lista onde os produtos serão exibidos -->
     <ul id="product-list"></ul>
+    <!-- exibição do gasto total -->
     <div id="total">
       <h3>Gasto Estimado: R$<span id="total-amount">0.00</span></h3>
     </div>
   </div>
+  <!-- vincula arquivo javascript -->
   <script src="script.js"></script>
 </body>
 </html>

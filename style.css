@@ -1,6 +1,6 @@
 /* Define o corpo com um degradê contínuo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;  
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -69,6 +69,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    gap: 15px;
     margin-bottom: 10px;
     background: #f0fff4;
     border: 2px solid #9ae6b4;
